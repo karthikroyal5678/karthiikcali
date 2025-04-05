@@ -8,7 +8,7 @@ interface VisionApiResult {
 }
 
 // Replace with your actual Google Vision API key
-const VISION_API_KEY = 'AIzaSyDDb6LzElx8fwVsKEs6OjsEPz3936b5iYI';
+const VISION_API_KEY = '';
 const VISION_API_URL = `https://vision.googleapis.com/v1/images:annotate?key=${VISION_API_KEY}`;
 
 export async function analyzeImageWithVision(imageBase64: string): Promise<VisionApiResult[]> {
