@@ -9,8 +9,8 @@ interface NutritionData {
   fats: number;    // In grams
 }
 
-const EDAMAM_APP_ID = '7dbf735d';
-const EDAMAM_APP_KEY = '70cf1fc0dc97095bc32f6a21c5d344c0 ';   // Replace with your Edamam App Key
+const EDAMAM_APP_ID = '';
+const EDAMAM_APP_KEY = ' ';   // Replace with your Edamam App Key
 const EDAMAM_API_URL = 'https://api.edamam.com/api/nutrition-data';
 
 export async function getNutritionData(foodItem: string): Promise<NutritionData> {
